@@ -1,9 +1,9 @@
 --- 
 title: "QCA en los negocios internacionales"
-author: "Omar Heredia"
+author: "Omar Heredia, José Carlos Rodríguez, Ernesto Calderón"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 
-# Análisis bibliometrico del QCA
+# Análisis bibliométrico del QCA
 
