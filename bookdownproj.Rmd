@@ -1,0 +1,25 @@
+--- 
+title: "QCA en los negocios internacionales"
+author: "Omar Heredia, José C. Rodríguez, Ernesto Calderón, Mario Gómez"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+---
+
+# Análisis bibliométrico del QCA
+
+Este apartado expone el estado del arte del análisis QCA en las ciencias sociales y especificamente en los negocios internacionales
+
+
+
+
+<!--chapter:end:index.Rmd-->
+
+# Planteamiento de problemas configuracionales con el QCA
+
+
+<!--chapter:end:02-tears.Rmd-->
+
+# El método QCA
+
+<!--chapter:end:03-race.Rmd-->
+
