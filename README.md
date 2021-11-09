@@ -1,4 +1,4 @@
-Este es el readme de mi libro de QCA
+Este es el readme de mi libro de QCA en los negocios internacionales...
 
 
 ## ABSOLUTE ESSENTIALS
