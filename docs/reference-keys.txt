@@ -1,4 +1,5 @@
 fig:nice-fig
+tab:nice-tab
 análisis-bibliométrico-del-qca
 planteamiento-de-problemas-configuracionales-con-el-qca
 el-método-qca

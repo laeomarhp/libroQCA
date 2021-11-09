@@ -7,13 +7,22 @@ site: bookdown::bookdown_site
 
 # Análisis bibliométrico del QCA
 
-Este apartado expone el estado del arte del análisis QCA en las ciencias sociales y especificamente en los negocios internacionales.
+Este apartado expone el estado del arte del análisis QCA en las ciencias sociales y especificamente en los negocios internacionales. Las figuras y las tablas se ordenan en el ambiente de `figure` y `table`,respectivamente.
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
-
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
+```{r nice-fig, fig.cap='Ejemplo de gráfica para el libro QCA!', out.width='80%', fig.asp=.75, fig.align='center'}
 par(mar = c(4, 4, .1, .1))
 plot(pressure, type = 'b', pch = 19)
 ```
 
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig).
+Se hace referencia a una figura por su etiqueta en el fragmento de código con el prefijo `fig:`, por ejemplo, ver figura \@ref(fig:nice-fig). De igual manera, se puede hacer referencia a tablas generadas con `knitr::kable()`, por ejemplo, ver tabla \@ref(tab:nice-tab).
+
+```{r nice-tab, tidy=FALSE}
+knitr::kable(
+  head(iris, 20), caption = 'Ejemplo de tabla para el libro de QCA!',
+  booktabs = TRUE
+)
+```
+
+Se pueden escribir citas también. Por ejemplo, usamos el paquete **bookdown** [@R-bookdown] en esta muestra de libro, el cual fue construido con base en **R Markdown** y  **knitr** [@xie2015].
+
+_Saludos espero que les guste la propuesta!_

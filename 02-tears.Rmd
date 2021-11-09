@@ -1,2 +1,14 @@
 # Planteamiento de problemas configuracionales con el QCA
 
+Este es un ejemplo de un libro de **QCA** escrito con **Markdown**. Se puede usar cualquier cosa que _Pandoc's Markdown_ soporta, por ejemplo, una ecuación matemática $a^2 + b^2 = c^2$.
+
+El paquete **bookdown** puede instalarse desde el CRAN o Github:
+
+```{r eval=FALSE}
+install.packages("bookdown")
+# or the development version
+# devtools::install_github("rstudio/bookdown")
+```
+
+Recuerda que cada documento Rmd contiene uno y solo un único capítulo, y un capítulo  es definido por el encabezado de primer nivel `#`.
+

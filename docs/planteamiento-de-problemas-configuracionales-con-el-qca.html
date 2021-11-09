@@ -161,6 +161,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="planteamiento-de-problemas-configuracionales-con-el-qca" class="section level1" number="2">
 <h1><span class="header-section-number">Chapter 2</span> Planteamiento de problemas configuracionales con el QCA</h1>
+<p>Este es un ejemplo de un libro de <strong>QCA</strong> escrito con <strong>Markdown</strong>. Se puede usar cualquier cosa que <em>Pandoc’s Markdown</em> soporta, por ejemplo, una ecuación matemática <span class="math inline">\(a^2 + b^2 = c^2\)</span>.</p>
+<p>El paquete <strong>bookdown</strong> puede instalarse desde el CRAN o Github:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="planteamiento-de-problemas-configuracionales-con-el-qca.html#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;bookdown&quot;</span>)</span>
+<span id="cb3-2"><a href="planteamiento-de-problemas-configuracionales-con-el-qca.html#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># or the development version</span></span>
+<span id="cb3-3"><a href="planteamiento-de-problemas-configuracionales-con-el-qca.html#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co"># devtools::install_github(&quot;rstudio/bookdown&quot;)</span></span></code></pre></div>
+<p>Recuerda que cada documento Rmd contiene uno y solo un único capítulo, y un capítulo es definido por el encabezado de primer nivel <code>#</code>.</p>
 
 </div>
             </section>
@@ -223,6 +229,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
